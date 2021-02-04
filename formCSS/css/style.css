@@ -1,0 +1,94 @@
+body {
+     width: 100%; background-image: url(https://c.wallhere.com/photos/e9/2a/anime_manga_anime_girls_Kantai_Collection_Fubuki_KanColle_sailor_uniform_white_background_schoolgirl-1607357.jpg!d);  
+}
+
+a{
+    color:#fff; 
+    /* Присвоить цвет ссылке */
+}
+
+a:hover{
+    text-decoration: none;
+    /* При наведении выбирает подчеривание */
+}
+
+.container{
+    /* Стиль формы (контейнера) */
+    width: 450px; /*ширина*/
+    background-color: rgb(72, 41, 73, 0.7); /*0.7 в конце цвета,это прозрачность*/
+    margin: 90px auto 0 auto; /*разместить по центру экрана*/
+    text-align: center; /*разместить текст по цетру внутри блока*/
+    box-shadow: 0 -5px 0 #3adbfd; /*синяя плажка над формой*/
+    border-radius: 0 0 10px 10px;
+    padding-bottom: 20px;
+}
+
+.container img{
+    width: 120px;
+    height: 120px;
+    margin: -60px 0 30px 0;
+    border: 5px solid rgb(72, 41, 73); /*обводка*/
+    border-radius: 50%;
+    box-shadow: 0 -5px 0 #3adbfd; /*синяя плажка над изобрадением*/
+}
+
+input[type="text"], input[type="password"] {
+/*оформление инпутов для логина и пароля*/
+width: 300px;
+height: 50px;
+font-size: 18px; /*увеличить текст*/
+margin-bottom: 25px; /*сделать отступы*/
+border-radius: 4px; /*закруглить углы*/
+padding-left: 10px; /*сдвинуть текст*/
+}
+
+.dws-submit {
+    padding : 13px 30px;
+    margin: 5px 0 20px 0;
+    font-size: 15px;
+    color: #fff;
+    background-color: #2ca8c6;
+    border: none;
+    border-bottom: 4px solid #6ee9fd;
+    cursor: pointer;
+}
+
+.dws-submit:hover{ /*стили кнопки при наведении*/
+    transition: all 0.5s; /*плавный переход*/
+    background: #fff;
+    color: #2c536c;
+}
+
+.dws-input::before{
+    font-family: "FontAwesome";
+    content: "\F007";
+    font-size: 30px;
+    padding: 10px 0 0 7px;
+    color: #2c536c;
+    position: relative;
+    top: 39px;
+    right: -128px;
+}
+
+.dws-submit:hover::before{
+    color:#319ebc;
+    transition: all 0.5s;
+}
+
+.dws-input input:hover{
+    box-shadow: 0 0 6px 3px rgba(58, 219, 253, 0.35);
+}
+
+.social i{
+    color: #fff;
+    font-size: 20px;
+    width: 20px;
+    padding: 10px;
+}
+
+.social i:hover{
+    background-color: #fff;
+    color: #1a394f;
+    border-radius: 5px;
+    cursor: pointer;
+}
